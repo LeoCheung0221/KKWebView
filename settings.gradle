@@ -1,2 +1,5 @@
 rootProject.name='KKWebApplication'
 include ':app'
+include ':kkbase'
+include ':kkwebview'
+include ':kkcommon'
