@@ -1,4 +1,4 @@
-package com.tufusi.kkwebview;
+package com.tufusi.logicuc;
 
 import android.content.Context;
 
@@ -21,7 +21,6 @@ public class ExampleInstrumentedTest {
     public void useAppContext() {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getInstrumentation().getTargetContext();
-
-        assertEquals("com.tufusi.kkwebview.test", appContext.getPackageName());
+        assertEquals("com.tufusi.logicuc.test", appContext.getPackageName());
     }
 }
